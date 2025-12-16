@@ -2,9 +2,15 @@
 int main() {
 	int score;
 	scanf("%d",&score);
-	if (score >= 68) {
-		printf("A B C");
+	if (score >= 85) {
+		printf("A");
+	} else if (score >= 75) {
+	    printf("B");
+	} else if (score >= 68) {
+	    printf("C");
+	} else if (score >= 60) {
+	    printf("D");
 	} else {
-	    printf("D F");
+	    printf("F");
 	}
 }
